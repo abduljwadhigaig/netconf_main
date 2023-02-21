@@ -1,6 +1,5 @@
 ciscoA = {
-
-             "host": "10.10.20.175",
+             "host": "192.168.122.79",
              "port": 830,
              "username": "cisco",
              "password": "cisco"
@@ -8,35 +7,35 @@ ciscoA = {
            }
 
 ciscoB = {
-             "host": "10.10.20.176",
+             "host": "192.168.122.120",
              "port": 830,
              "username": "cisco",
              "password": "cisco"
            }
 
 ciscoC = {
-             "host": "10.10.20.177",
+             "host": "192.168.122.175",
              "port": 830,
              "username": "cisco",
              "password": "cisco"
            }
 
 R21 = {
-             "host": "10.10.20.178",
+             "host": "192.168.122.215",
              "port": 830,
              "username": "cisco",
              "password": "cisco"
            }
 
 R11 = {
-             "host": "10.10.20.180",
+             "host": "192.168.122.82",
              "port": 830,
              "username": "cisco",
              "password": "cisco"
            }
 
 R22 = {
-             "host": "10.10.20.179",
+             "host": "192.168.122.92",
              "port": 830,
              "username": "cisco",
              "password": "cisco"
