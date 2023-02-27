@@ -9,7 +9,7 @@ def configure_device(xml_payload,**dev_inf):
     with manager.connect(**dev_inf,hostkey_verify=False) as m:
         # Change the hostname of the device
         r = m.edit_config(xml_payload,target='running')
-        print(r)
+        print(r,dev_inf["host"])
 
 
 threads = []
