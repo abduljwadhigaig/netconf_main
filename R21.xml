@@ -129,5 +129,24 @@
         </address-family>
         </bgp>
 		</router>
+	       <ip>
+				<route>
+					<ip-route-interface-forwarding-list>
+						<prefix>192.168.111.10</prefix>
+						<mask>255.255.255.255</mask>
+						<fwd-list>
+							<fwd>10.0.12.1</fwd>
+						</fwd-list>
+					</ip-route-interface-forwarding-list>
+					
+					<ip-route-interface-forwarding-list>
+						<prefix>192.168.111.10</prefix>
+						<mask>255.255.255.255</mask>
+						<fwd-list>
+							<fwd>172.30.20.201</fwd>
+						</fwd-list>
+					</ip-route-interface-forwarding-list>
+				</route>
+			</ip>
    </native>
 </config>
