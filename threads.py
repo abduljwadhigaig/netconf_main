@@ -7,7 +7,6 @@ def configure_device(xml_payload,**dev_inf):
     # Start a network-wide transaction
     global dic_name
     with manager.connect(**dev_inf,hostkey_verify=False) as m:
-        # Change the hostname of the device
         r = m.edit_config(xml_payload,target='running')
         print(r,dev_inf["host"])
 
